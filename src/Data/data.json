@@ -1,0 +1,165 @@
+[
+    {
+        "id" : 1,
+        "name" : "Eggs Benedict",
+        "description" : "How we dream about our future",
+        "price" : 8.99,
+        "category" : "breakfast",
+        "image" : "https://postimg.cc/757Z6wnP"
+
+    },
+    {
+        "id" : 2,
+        "name" : "Bagel And Cream Cheese",
+        "description" : "How we dream about our future",
+        "price" : 6.99,
+        "category" : "breakfast",
+        "image" : "https://postimg.cc/XpcKtSth"
+
+    },
+    {
+        "id" : 3,
+        "name" : "Breakfast Sandwich",
+        "description" : "How we dream about our future",
+        "price" : 9.99,
+        "category" : "breakfast",
+        "image" : "https://postimg.cc/z3wRGwpH"
+
+    },
+    {
+        "id" : 4,
+        "name" : "Baked Chicken",
+        "description" : "How we dream about our future",
+        "price" : 10.99,
+        "category" : "breakfast",
+        "image" : "https://postimg.cc/bG2Zc1sJ"
+
+    },
+    {
+        "id" : 5,
+        "name" : "Toast Croissant Fried Egg",
+        "description" : "How we dream about our future",
+        "price" : 19.99,
+        "category" : "breakfast",
+        "image" : "https://postimg.cc/dkY0RSwY"
+
+    },
+    {
+        "id" : 6,
+        "name" : "Full Breakfast Fried Egg Toast Brunch",
+        "description" : "How we dream about our future",
+        "price" : 3.99,
+        "category" : "breakfast",
+        "image" : "https://postimg.cc/Ty82GHyD"
+
+    },
+    {
+        "id" : 7,
+        "name" : "Healthy Meal Plan",
+        "description" : "How we dream about our future",
+        "price" : 23.99,
+        "category" : "lunch",
+        "image" : "https://postimg.cc/HcYgkGTV"
+
+    },
+    {
+        "id" : 8,
+        "name" : "Fried Chicken Bento",
+        "description" : "How we dream about our future",
+        "price" : 9.99,
+        "category" : "lunch",
+        "image" : "https://postimg.cc/wyfSx7WG"
+
+    },
+    {
+        "id" : 9,
+        "name" : "Tarragon-Rubbed-Salmon",
+        "description" : "How we dream about our future",
+        "price" : 6.99,
+        "category" : "lunch",
+        "image" : "https://postimg.cc/w7sSHxDw"
+
+    },
+    {
+        "id" : 10,
+        "name" : "Indian Lunch",
+        "description" : "How we dream about our future",
+        "price" : 8.99,
+        "category" : "lunch",
+        "image" : "https://postimg.cc/yJnGnDz8"
+
+    },
+    {
+        "id" : 11,
+        "name" : "Beef Steak",
+        "description" : "How we dream about our future",
+        "price" : 15.99,
+        "category" : "lunch",
+        "image" : "https://postimg.cc/BPPwqNPj"
+
+    },
+    {
+        "id" : 12,
+        "name" : "Honey-Soy-Glazzed Salmon With Peppers",
+        "description" : "How we dream about our future",
+        "price" : 7.99,
+        "category" : "lunch",
+        "image" : "https://postimg.cc/217981y7"
+
+    },
+    {
+        "id" : 13,
+        "name" : "Salmon with Grapefruit and Lentil Salad",
+        "description" : "How we dream about our future",
+        "price" : 9.99,
+        "category" : "dinner",
+        "image" : "https://postimg.cc/cvhTGPkD"
+
+    },
+    {
+        "id" : 14,
+        "name" : "Lamoni Salmon Piccata",
+        "description" : "How we dream about our future",
+        "price" : 10.99,
+        "category" : "dinner",
+        "image" : "https://postimg.cc/PppMZJXc"
+
+    },
+    {
+        "id" : 15,
+        "name" : "Pork Tendelorin With Quinoa Pilaf",
+        "description" : "How we dream about our future",
+        "price" : 12.99,
+        "category" : "dinner",
+        "image" : "https://postimg.cc/67Sr9Krh"
+
+    },
+    {
+        "id" : 16,
+        "name" : "French Fries With Cheese",
+        "description" : "How we dream about our future",
+        "price" : 8.99,
+        "category" : "dinner",
+        "image" : "https://postimg.cc/CRxkk5JN"
+
+    },
+    {
+        "id" : 17,
+        "name" : "Garlic Butter Baked Salmon",
+        "description" : "How we dream about our future",
+        "price" : 6.99,
+        "category" : "dinner",
+        "image" : "https://postimg.cc/xJMznzT0"
+
+    },
+    {
+        "id" : 18,
+        "name" : "Baked Chicken",
+        "description" : "How we dream about our future",
+        "price" : 9.99,
+        "category" : "dinner",
+        "image" : "https://postimg.cc/211dg3v5"
+
+    }
+
+]

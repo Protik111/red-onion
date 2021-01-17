@@ -2,20 +2,24 @@
     background-image: url(../../images/bannerbackground.png);
     height: 80%;
     width: 1400px;
-    position: fixed;
-    margin-top: 15px;
+    position: absolute;
+    right: 3px;
+    margin-top: 20px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     /* background-repeat: no-repeat; */
 }
-p{
+.header-title{
     text-align: center;
-    margin-top: 130px;
+    margin-top: 340px;
     font-weight: 500;
     font-size: 30px;
 }
-img{
+.header-bg p{
+    margin-top: 100px;
+}
+.logo{
     width:130px;
     height:35px;
     margin-top: 25px;
@@ -27,7 +31,7 @@ img{
 .btn{
     position: absolute;
     right: 40px;
-    top: 25px;
+    top: 15px;
 }
 .btnLogIn{
     margin-right: 22px;
@@ -41,24 +45,30 @@ img{
 }
 .btnSignUp{
     background-color: red;
-    padding: 9px 19px;
+    padding: 6px 19px;
     border-radius: 15px;
     border: none;
     color: white;
     cursor: pointer;
+    outline: none;
 }
 .search-input{
     margin-left: 500px;
-    padding: 10px 20px;
+    padding: 6px 19px;
     width: 200px;
     border-radius: 15px;
     border: none;
+    outline : none;
 }
 .btnSearch{
     background-color: red;
-    padding: 10px 20px;
+    padding: 6px 19px;
     border-radius: 15px;
     border: none;
     color: white;
     cursor: pointer;
+    outline: none;
+}
+.search{
+    margin-left: 55px;
 }

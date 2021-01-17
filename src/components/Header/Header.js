@@ -8,20 +8,22 @@ const Header = () => {
         <div className="">
             <div className="header-menu">
                 <div>
-                    <img src={logo} alt=""/>
-                </div>
-                <div className="cart-logo">
-                     <ShoppingCartIcon style={{marginTop:'30px', marginLeft:'950px'}}></ShoppingCartIcon>
-                </div>
+                    <img src={logo} className="logo" alt=""/>
+                     </div>
+                     <div>
+                     <ShoppingCartIcon style={{marginTop:'30px', marginLeft:'920px'}}></ShoppingCartIcon>
+                     </div>
                 <div className="btn">
                     <button className="btnLogIn">Log In</button>
                     <button className="btnSignUp">Sign Up</button>
                 </div>
             </div>
             <div className="header-bg">
-            <p>Best food waiting for your belly</p>
-            <input type="text" placeholder="search for items" className="search-input"/>
-            <button className="btnSearch">Search</button>
+                <p className="header-title">Best food waiting for your belly</p>
+                <div className="search">
+                    <input type="text" placeholder="search for items" className="search-input"/>
+                    <button className="btnSearch">Search</button>
+                </div>
             </div>
 
         </div>

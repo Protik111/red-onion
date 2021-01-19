@@ -1,0 +1,24 @@
+.single-item-container{
+    display: flex;
+}
+.single-item-info{
+    width: 30%;
+    margin : 160px 60px;
+    margin-left: 200px;
+}
+.item-photo img{
+    width:450px;
+    height: 450px;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+.add-btn{
+    margin-top:8px;
+    background-color: red;
+    padding: 6px 22px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}

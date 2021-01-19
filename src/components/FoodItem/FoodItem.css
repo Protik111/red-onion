@@ -1,3 +1,37 @@
 .food-item{
-    margin-top: 650px;
+    margin-top: 660px;
+}
+.category {
+    margin-left : 545px;
+}
+.category button{
+    margin-right: 22px;
+    background: none;
+	color: black;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+    outline: none;
+}
+
+.category button:focus {
+    /* outline: rgb(80, 5, 55) auto 5px; */
+    border-bottom: 2px solid rgb(173, 10, 10);
+    outline : none;
+    color: rgb(173, 10, 10);
+}
+.proceed-btn button{
+    background-color: darkgreen;
+    color: white;
+    margin-left: 580px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border : none;
+}
+.proceed-btn button:focus{
+    outline: none;
+}
+.proceed-btn{
+    padding-bottom: 40px;
 }

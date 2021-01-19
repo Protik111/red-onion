@@ -16,3 +16,8 @@ img{
 .item-container:hover{
     box-shadow: 1px 1px 7px gray;
 }
+.item-container-link h5, p, h3{
+    text-decoration: none;
+    color : black;
+    cursor: pointer;
+}

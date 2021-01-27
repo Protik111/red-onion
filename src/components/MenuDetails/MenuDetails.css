@@ -22,3 +22,20 @@
     cursor: pointer;
     outline: none;
 }
+.add-btn:focus{
+    outline: none;
+}
+.back-btn{
+    margin-top:8px;
+    margin-left: 10px;
+    background-color: green;
+    padding: 6px 22px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+.back-btn:focus{
+    outline: none;
+}

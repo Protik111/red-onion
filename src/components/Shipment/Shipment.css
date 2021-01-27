@@ -1,0 +1,38 @@
+.welcomeName{
+    color: tomato;
+}
+.welcomeHeader{
+    text-align: center;
+}
+.shippingAddress input{
+    width: 350px;
+    height: 40px;
+    margin: 10px 0px;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    border : 1px solid gray;
+    outline: none;
+}
+.saveContinue{
+    color: white;
+    background-color: rgb(255, 0, 76);
+    width: 350px;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    border : 1px solid gray;
+
+}
+.shipping-container{
+    display: flex;
+    margin-top: 70px;
+}
+.shippingAddress{
+    margin-left: 150px;
+}
+.hr{
+    color: black;
+}
+.deliveryInfo{
+    margin-left: 400px;
+}

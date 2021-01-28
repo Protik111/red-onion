@@ -118,6 +118,9 @@ outline: none;
     margin-top: 100px;
     color: white;
 }
+.footer-hints p{
+    color:white;
+}
 .footer-hints-right{
     color : white;
 }

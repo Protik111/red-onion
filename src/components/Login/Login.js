@@ -59,14 +59,14 @@ const Login = () => {
         firebase.auth().createUserWithEmailAndPassword(user.email, user.password)
             .then( res => {
                 const newUserInfo = {...user}
-                console.log(newUserInfo.name);
+                // console.log(newUserInfo.name);
                 newUserInfo.error = '';
                 newUserInfo.success = true;
                 setLoggedInUser(newUserInfo);
                 setUser(newUserInfo);
-                console.log(loggedInUser);
+                // console.log(loggedInUser);
                 setPassStatus('');
-                console.log(newUserInfo);
+                // console.log(newUserInfo);
                 history.replace(from);
             })
             .catch((error) => {
@@ -81,6 +81,8 @@ const Login = () => {
             });
         }if(newUser && user.password != user.password2){
             setPassStatus('Password does not match');
+        }if(user.name){
+            setLoggedInUser(e.target.value);
         }
 
         if(!newUser && user.email && user.password){

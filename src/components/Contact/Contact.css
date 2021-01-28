@@ -1,0 +1,87 @@
+.map-container{
+    display: flex;
+    margin-top: 70px;
+}
+.mapPhoto img{
+    width: 600px;
+    height: 500px;
+    margin-left: 150px;
+    border-radius: 10px;
+    border:  1px solid gray;
+}
+.bikeAndAddress{
+    margin-left: 140px;
+    background-color: rgb(226, 225, 225);
+    width: 250px;
+    border-radius: 10px;
+}
+.bikePhoto img{
+    width: 70px;
+    height: 68px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.address{
+    margin-top: 30px;
+    line-height: 15px;
+    background-color: white;
+    width: 90%;
+    margin-left: 13px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    border-radius: 15px;
+}
+.road{
+    margin-left: 25px;
+    color: gray;
+}
+
+ul {
+    list-style: none;
+}
+ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1.7em;
+}
+.timeCount{
+      margin-left: 20px;
+}
+.time{
+    margin-top: 15px;
+}
+.ownerPhoto img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.orderOwner{
+    margin-top: 10px;
+    /* line-height: 15px; */
+    background-color: white;
+    width: 90%;
+    height: 70px;
+    margin-left: 13px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    border-radius: 15px;
+    display: flex;
+}
+.ownerName{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.contactBtn{
+    color: white;
+    background-color: red;
+    width: 90%;
+    height: 45px;
+    margin-left: 13px;
+    margin-top: 13px;
+    border: 1px solid gray;
+    border-radius: 7px;
+}

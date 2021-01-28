@@ -7,17 +7,19 @@ import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 // import { Carousel } from 'bootstrap';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import { UserContext } from '../../App';
+import Shipment from '../Shipment/Shipment';
 
 const MenuDetails = () => {
     const {id} = useParams();
     const [items] = useState(data);
-    const [item, setItem] = useState({});
+    // const [item, setItem] = useState({});
 
 
-    const {cart, setCart} = useContext(UserContext);
+    const [loggedInUser, setLoggedInUser, item, setItem] = useContext(UserContext);
     
     useEffect(() => {
         const selectedItem = items.find(itm => itm.id === parseInt(id));
+        // <Shipment selectedItem={selectedItem}></Shipment>
         setItem(selectedItem);
     }, [item])
 
